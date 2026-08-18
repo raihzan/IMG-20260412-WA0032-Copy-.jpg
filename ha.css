@@ -1,0 +1,131 @@
+*,
+html {
+  margin:0;
+  padding:0;
+}
+
+
+body {
+  background-color :white;
+}
+
+.container1 {
+  background-color :#444;
+  width:100%;
+  height:10vh;
+}
+
+.navbar1 {
+  display: flex;
+  justify-content:center;
+  align-items:center;
+}
+.list1 {
+  padding:10px;
+  margin:5px;
+  color:white;
+  font-weight:800;
+  list-style-type:none;
+}
+
+#biodata {
+  background-color:hwb(0 59% 41%) ;
+  font-weight: 800;
+  color: white;
+}
+
+.list1:hover {
+  background-color:black;
+  transition: .5s ease-in-out;
+  transition-delay: .1s;
+  border-radius:5px;
+}
+.list1-home{
+  background-color:black;
+  list-style-type:none;
+  border-radius:10px;
+  height:100%;
+  width:20%;
+  display:flex;
+  justify-content:center;
+  align-items: center;
+}
+
+.list1-about-me {
+  background:black;
+  list-style-type:none;
+  border-radius:10px;
+  height:100%;
+  width:30%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.list1-contack-me {
+  background:black;
+  list-style-type:none;
+  border-radius:10px;
+  height:100%;
+  width:37%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.container-li {
+  color:white;
+  text-decoration:none;
+}
+
+.container2 {
+  background-color:#7f7f7f7f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:80vh;
+}
+
+.container3 {
+  background-color: red;
+}
+.untuk-h1 {
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  font-size:40px;
+  height:10vh;
+}
+
+
+
+.img-saja {
+  width:40%;
+  height:40%;
+  
+}
+
+.img-link {
+  background-color:white;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  border-radius:10px;
+  width:40%;
+  height:40%;
+  flex-direction:column;
+  text-decoration: none;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.img-link:hover{
+  background-color:tomato;
+  transition: .3s ease-in-out;
+  transition-delay: .3s;
+}
+
+.wakolop {
+  color:black;
+}
